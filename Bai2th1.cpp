@@ -28,14 +28,9 @@ int main() {
         }
         printf("\n");
     }
-
-
-    //giai phong ma tran
     for (int i = 0; i < h; i++) {
         free(ma[i]);
     }
     free(ma);
-
-
     return 0;
 }
